@@ -1,5 +1,4 @@
 import { galleryItems } from './gallery-items.js';
-// Change code below this line
 
 function markupGallery(arrImages) {
     return arrImages
@@ -21,8 +20,6 @@ function markupGallery(arrImages) {
 const galleryList = document.querySelector('.js-gallery');
 galleryList.insertAdjacentHTML('beforeend', markupGallery(galleryItems));
 galleryList.addEventListener('click', onClick);
-
-//------- Var 1 ---------
 
 function onClick(e) {
     e.preventDefault();
